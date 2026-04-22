@@ -1,3 +1,6 @@
+### Implement AO* search algorithm to find the optimal path in given problem space.
+
+
 graph = {
     'A': [[('B', 1), ('C', 1)], [('D', 1)]],  
     'B': [[('E', 1)], [('F', 1)]],            

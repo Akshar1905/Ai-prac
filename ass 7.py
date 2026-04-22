@@ -1,3 +1,7 @@
+#Q.) Design and implement a classical planning algorithm to solve a goal-based problem such as the block world problem.
+
+
+
 # Goal Stack Planning for Block World
 
 # Define actions
