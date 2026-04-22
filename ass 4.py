@@ -1,3 +1,7 @@
+###Q) Implement A* search algorithm to find the optimal path in given problem space.
+
+
+
 import heapq
 
 def a_star(graph, heuristic, start, goal):

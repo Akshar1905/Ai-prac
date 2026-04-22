@@ -1,3 +1,8 @@
+### Write a program to demonstrate state space search using Breadth First Search (BFS) 
+# and Depth First Search (DFS) in Artificial Intelligence. 
+# The program should accept a graph, initial state, and goal state as input, p
+# erform BFS and DFS traversals, and display the traversal order along with the solution path for both algorithms.
+
 from collections import deque
 
 

@@ -1,3 +1,7 @@
+### Implement the Minimax algorithm with Alpha-Beta pruning for a game-playing scenario.
+
+
+
 def minimax(depth, node_index, is_max, values, alpha, beta, max_depth):
     
 

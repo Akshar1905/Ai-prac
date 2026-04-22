@@ -1,3 +1,7 @@
+#Q.) Develop a program to solve a robot obstacle traversal problem using suitable search or heuristic
+
+
+
 import heapq
 
 def heuristic(a, b):
