@@ -71,3 +71,25 @@ visited, path = a_star(graph, heuristic, start, goal)
 
 print("Visited Order:", visited)
 print("Optimal Path:", path)
+
+
+###Aim
+To implement A search algorithm* for finding optimal path.
+🔹 Theory
+A* is an informed search algorithm that finds the shortest path using a heuristic function.
+Formula:
+f(n)=g(n)+h(n)
+g(n): cost from start to node
+h(n): estimated cost to goal
+🔹 Algorithm
+Start from initial node
+Calculate f(n)
+Choose node with lowest cost
+Repeat until goal is reached
+🔹 Explanation of Code
+Priority queue is used to select minimum cost node
+g_cost stores actual distance
+heuristic estimates remaining cost
+Path is reconstructed using came_from
+🔹 Conclusion
+A* is efficient and guarantees optimal solution when heuristic is admissible.
