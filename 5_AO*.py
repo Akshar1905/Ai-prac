@@ -66,3 +66,23 @@ def print_solution(node):
         print_solution(child)
 
 print_solution(start_node)
+
+
+###🔹 Aim
+To implement AO algorithm for AND-OR graph*.
+🔹 Theory
+AO* is used when a problem can be broken into subproblems.
+It works on AND-OR graphs:
+AND node → all children must be solved
+OR node → choose one best child
+🔹 Algorithm
+Start from root node
+Expand nodes
+Calculate cost recursively
+Choose minimum cost path
+🔹 Explanation of Code
+Graph contains multiple paths (AND-OR structure)
+Recursive function calculates cost
+Best path is stored in solution_graph
+🔹 Conclusion
+AO* is useful for complex decision-making problems involving subgoals.
