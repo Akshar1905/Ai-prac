@@ -57,3 +57,27 @@ board = [[0 for _ in range(N)] for _ in range(N)]
 
 if not solve_queens(board, 0):
     print("No solution exists")
+
+
+###🔹 Aim
+To solve the 8-Queens problem using backtracking.
+🔹 Theory
+The 8-Queens problem is a constraint satisfaction problem where 8 queens must be placed on a chessboard such that no two queens attack each other.
+Conditions:
+No same row
+No same column
+No diagonal attack
+Backtracking is used to try all possible positions and undo incorrect choices.
+🔹 Algorithm
+Place queen row by row
+Check if position is safe
+If safe → place queen
+Else → backtrack
+Repeat until solution found
+🔹 Explanation of Code
+is_safe() checks column and diagonal conflicts
+solve_queens() places queens recursively
+If conflict occurs, it removes queen (backtracking)
+Final board is printed
+🔹 Conclusion
+Backtracking efficiently solves constraint problems by eliminating invalid solutions early.
