@@ -85,3 +85,22 @@ plan = goal_stack_planning(initial_state, goal_state)
 print("Plan to reach goal state:")
 for step in plan:
     print(step)
+
+
+###🔹 Aim
+To implement Goal Stack Planning for block world problem.
+🔹 Theory
+Goal Stack Planning is used in AI planning problems.
+It uses a stack to store goals and actions required to achieve them.
+🔹 Algorithm
+Push goal into stack
+Check if goal is satisfied
+If not → push actions
+Execute actions step by step
+🔹 Explanation of Code
+Initial and goal states are defined
+Stack stores actions like “stack” and “putdown”
+State updates after each action
+Final plan is printed
+🔹 Conclusion
+It is useful in robotics and automated planning systems.
