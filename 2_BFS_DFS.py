@@ -78,3 +78,30 @@ print("Solution Path:", bfs_path if bfs_path else "No path found")
 print("\n--- DFS Result ---")
 print("Traversal Order:", dfs_traversal)
 print("Solution Path:", dfs_path if dfs_path else "No path found")
+
+
+
+///🔹 Aim
+To implement Breadth First Search (BFS) and Depth First Search (DFS) for state space search and find traversal order and solution path.
+🔹 Theory
+State space search is a method used in Artificial Intelligence to explore all possible states to reach a goal.
+BFS (Breadth First Search) explores nodes level by level using a queue. It always finds the shortest path in an unweighted graph.
+DFS (Depth First Search) explores nodes deeply using a stack. It is memory efficient but may not give the optimal solution.
+🔹 Algorithm
+BFS Steps:
+Start from initial node
+Add it to queue
+Visit nodes level-wise
+Stop when goal is found
+DFS Steps:
+Start from initial node
+Push into stack
+Explore deeply
+Backtrack if needed
+🔹 Explanation of Code
+Graph is taken as input using adjacency list
+BFS uses queue to explore nodes
+DFS uses stack for depth exploration
+Traversal order and solution path are printed
+🔹 Conclusion
+BFS guarantees shortest path, while DFS is faster but not always optimal.
