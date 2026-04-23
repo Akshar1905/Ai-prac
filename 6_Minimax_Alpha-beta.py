@@ -46,3 +46,24 @@ max_depth = 3
 result = minimax(0, 0, True, values, float('-inf'), float('inf'), max_depth)
 
 print("Optimal value (best move for maximizer):", result)
+
+
+###🔹 Aim
+To implement Minimax algorithm with Alpha-Beta pruning.
+🔹 Theory
+Minimax is used in game playing where:
+Maximizer tries to maximize score
+Minimizer tries to minimize score
+Alpha-Beta pruning reduces unnecessary calculations.
+🔹 Algorithm
+Generate game tree
+Apply minimax recursively
+Use alpha and beta values
+Prune branches when possible
+🔹 Explanation of Code
+Recursive function explores game tree
+alpha = best value for maximizer
+beta = best value for minimizer
+Pruning occurs when beta ≤ alpha
+🔹 Conclusion
+Alpha-Beta pruning improves efficiency without affecting result.
