@@ -66,3 +66,22 @@ visited, path = a_star(grid, start, goal)
 
 print("Visited Nodes:", visited)
 print("Optimal Path:", path)
+
+
+###🔹 Aim
+To solve robot obstacle traversal problem using A*.
+🔹 Theory
+Robot navigation is a pathfinding problem where obstacles must be avoided.
+A* is used with heuristic (Manhattan distance).
+🔹 Algorithm
+Start from initial position
+Explore neighbors
+Avoid obstacles
+Choose path with minimum cost
+🔹 Explanation of Code
+Grid represents environment (0 = free, 1 = obstacle)
+Heuristic = Manhattan distance
+A* finds shortest path
+Path is reconstructed
+🔹 Conclusion
+A* is widely used in robotics and navigation systems.
